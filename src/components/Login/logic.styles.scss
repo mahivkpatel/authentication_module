@@ -1,0 +1,98 @@
+.loginback {
+    background-color: #e3f2fd;
+    width: 100%;
+    padding: 4.8rem 0px;
+  }
+  
+  .logincard {
+    width: 28rem;
+    height: 35.2rem;
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* .loginmaincard {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  .logincard h1 {
+    color: #043565;
+    font-weight: 650;
+    padding: 0.8rem 0rem;
+  }
+  .logincard h4 {
+    color: #5b5c5c;
+    padding: 0.5rem 0rem;
+  }
+  
+  .logincard img {
+    padding: 35px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .logincard .logininput {
+    width: 22rem;
+    display: flex;
+    justify-content: center;
+    margin: 1.1rem auto;
+  }
+  
+  .logincard .logincheck {
+    margin: 0px auto;
+  }
+  .logincard h3 {
+    color: #043565;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+  
+  .logincard Button {
+    background-color: #043565;
+    color: white;
+    padding: 1rem 10rem;
+    margin: 0rem auto;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  .forget {
+    text-align: center;
+    padding-top: 1.3rem;
+  }
+  .logincard Button:hover {
+    background-color: #0c4885;
+  }
+  @media (max-width: 998px) {
+    html {
+      font-size: 85%;
+    }
+    .loginback {
+      padding: 27rem 0px;
+    }
+    .logincard {
+      width: 31rem;
+      height: 38rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 85%;
+    }
+    .loginback {
+      padding: 15rem 0px;
+    }
+    .logincard {
+      width: 26rem;
+      height: 36rem;
+    }
+  }
+  
