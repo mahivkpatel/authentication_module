@@ -1,0 +1,19 @@
+import React from 'react'
+	import {Navigate, Outlet} from 'react-router-dom'
+	const useAuth=()=>{
+	  const user=localStorage.getItem('isAuth')
+	  if(user){
+	    return true
+	  } else {
+	    return false
+	  }
+	}
+	const  PublicRoutes=(props:any) =>{
+
+debugger
+	  const auth=useAuth()
+	  return auth?<Navigate to="/"/>: <Outlet/>
+	}
+	
+
+	export default PublicRoutes;;
